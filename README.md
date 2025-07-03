@@ -14,6 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 - Nama Lengkap: Baginda Putra Krista
 - Kategori Proyek yang Dipilih: E-Commerce
 - Deskripsi Singkat Proyek:
+
 GamerStore adalah sebuah website utama bagi para gamer di Indonesia untuk menemukan game terbaru, melakukan top-up, dan mendapatkan voucher digital dengan mudah, cepat, dan aman.
 
 GamerStore menawarkan banyak produk digital dari berbagai platform seperti Steam, PlayStation, dan lainnya, serta top-up untuk game mobile terpopuler.
