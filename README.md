@@ -11,8 +11,9 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-○ Nama Lengkap: Baginda Putra Krista
-○ Kategori Proyek yang Dipilih: E-Commerce
-○ Deskripsi Singkat Proyek: 
-GamerStore adalah sebuah website utama bagi para gamer di Indonesia untuk menemukan game terbaru, melakukan top-up, dan mendapatkan voucher digital dengan mudah, cepat, dan aman.
-GamerStore menawarkan banyak produk digital dari berbagai platform seperti Steam, PlayStation, dan lainnya, serta top-up untuk game mobile terpopuler.
+- Nama Lengkap: Baginda Putra Krista
+- Kategori Proyek yang Dipilih: E-Commerce
+- Deskripsi Singkat Proyek:
+- GamerStore adalah sebuah website utama bagi para gamer di Indonesia untuk menemukan game terbaru, melakukan top-up, dan mendapatkan voucher digital dengan mudah, cepat, dan aman.
+- GamerStore menawarkan banyak produk digital dari berbagai platform seperti Steam, PlayStation, dan lainnya, serta top-up untuk game mobile terpopuler.
+
