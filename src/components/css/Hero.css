@@ -1,0 +1,66 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60vh;
+    color: #fff;
+    background: url(https://cdn.discordapp.com/discovery-splashes/1047035154734002217/2e29de4afdabf12da43d2f773b37037d.jpg?size=2048) no-repeat center center/cover;
+    position: relative;
+    padding: 0 2rem;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(26, 26, 46, .9) 10%, rgba(0, 0, 0, .3) 100%);
+    z-index: 1;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    animation: fadeIn 1s ease-in-out;
+}
+.hero-content h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .7);
+    font-weight: 800;
+}
+.hero-content p {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cta-button {
+    padding: clamp(.8rem, 2vw, 1rem) clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(.9rem, 2.5vw, 1.1rem);
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color .3s ease, transform .2s ease;
+}
+.cta-button:hover {
+    background-color: #d43d51;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(233, 69, 96, .4);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
